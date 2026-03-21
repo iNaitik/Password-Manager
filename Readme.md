@@ -34,6 +34,15 @@ A command-line password manager built with a focus on **security fundamentals** 
 
 ---
 
+## 🛡️ Threat Model
+
+- If attacker gets the JSON file → data remains encrypted
+- Without master password → cannot derive encryption key
+- Brute-force attacks are slowed by bcrypt hashing
+- Security depends on strength of master password
+  
+---
+
 ## 🛠️ Tech Stack
 
 * Python
