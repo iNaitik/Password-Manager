@@ -86,6 +86,10 @@ Enter password: *****
 
 Password stored successfully.
 
+
+<img width="1269" height="823" alt="image" src="https://github.com/user-attachments/assets/7aca4631-60cf-4d88-a59a-5241c249fe1d" />
+
+
 ---
 
 ## ⚠️ Limitations
