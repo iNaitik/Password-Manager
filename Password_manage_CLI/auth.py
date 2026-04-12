@@ -1,6 +1,6 @@
 import os
 import json
-from crypto import hash_password, verify_password
+from Password_manage_CLI.crypto import hash_password, verify_password
 
 file_name = "Passwords.json"
 

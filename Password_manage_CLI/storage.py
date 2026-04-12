@@ -1,5 +1,5 @@
 import json
-from crypto import encrypt_password, decrypt_password
+from Password_manage_CLI.crypto import encrypt_password, decrypt_password
 
 FILE_NAME = "Passwords.json"
 

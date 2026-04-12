@@ -1,8 +1,8 @@
 import json
 import os
-from auth import verify_master_password, setup_master_password
-from storage import add_password, get_password, delete_password, list_passwords,update_password
-from crypto import generate_key
+from Password_manage_CLI.auth import verify_master_password, setup_master_password
+from Password_manage_CLI.storage import add_password, get_password, delete_password, list_passwords,update_password
+from Password_manage_CLI.crypto import generate_key
 
 if __name__ == "__main__":
     file_name = "Passwords.json"
