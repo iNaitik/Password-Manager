@@ -64,9 +64,14 @@ def verify_password(input_password, hashed_password):
 # a URL-safe key that can be used for encryption and decryption with the Fernet library.
 
 #Fernet requires a specific formate
-# The key must be 32 bytes long and URL-safe, 
+# The key must be 32 raw bytes long and URL-safe, 
 # which is why we use base64 encoding to ensure that the generated key meets 
 # these requirements.
+#.digest() is used to obtain the raw bytes of the hash, which is necessary for
+# encryption and decryption operations with Fernet.
+# raw bytes are the actual binary data produced by the hashing algorithm,
+# while the base64 encoding is a way to represent that binary data in a text format that
+# can be easily stored and transmitted.
 #-----------------------------------------------------------------------------------------
 
 def generate_key(password):
